@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="00.Constructure.cs" />
+    <Compile Remove="01.Interface.cs" />
+    <Compile Remove="02.Delegate.cs" />
+    <Compile Remove="03.Event.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Study\00.Constructure.cs" />
+    <None Include="Study\02.Delegate.cs" />
+    <None Include="Study\03.Event.cs" />
+    <None Include="Study\01.Interface.cs" />
+  </ItemGroup>
+
+</Project>
